@@ -3,12 +3,12 @@
 <suite name="ApiTestSuite">
     <test name="TestAPIs">
         <classes>
+            <class name="apiTest.BaseTest"/>
             <class name="apiTest.Chapter1Test"/>
             <class name="apiTest.Chapter2Test"/>
             <class name="apiTest.Chapter3Test"/>
             <class name="apiTest.Chapter4Test">
             </class>
-        </class>
     </classes>
 </test>
         </suite>
